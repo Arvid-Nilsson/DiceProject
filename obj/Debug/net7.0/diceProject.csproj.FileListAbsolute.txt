@@ -1,0 +1,14 @@
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\obj\Debug\net7.0\diceProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\obj\Debug\net7.0\diceProject.AssemblyInfoInputs.cache
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\obj\Debug\net7.0\diceProject.AssemblyInfo.cs
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\obj\Debug\net7.0\diceProject.csproj.CoreCompileInputs.cache
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\bin\Debug\net7.0\diceProject.exe
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\bin\Debug\net7.0\diceProject.deps.json
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\bin\Debug\net7.0\diceProject.runtimeconfig.json
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\bin\Debug\net7.0\diceProject.dll
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\bin\Debug\net7.0\diceProject.pdb
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\obj\Debug\net7.0\diceProject.dll
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\obj\Debug\net7.0\refint\diceProject.dll
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\obj\Debug\net7.0\diceProject.pdb
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\obj\Debug\net7.0\diceProject.genruntimeconfig.cache
+C:\Users\Arvid.nilsson5\Desktop\Prog2\övningar\diceProject\obj\Debug\net7.0\ref\diceProject.dll
