@@ -5,9 +5,38 @@ namespace diceroller{
         private int amount;
         private int sides;
 
+        public int Amount{
+            get{return Amount;}
+
+            set{
+                if(value >= 2){
+                    amount = value;
+                }
+                else{
+                    amount = 2;
+                }
+            }
+        }
+        public int Sides{
+            get{return Amount;}
+
+            set{
+                if(value >= 2){
+                    sides = value;
+                }
+                else{
+                    amount = 2;
+                }
+            }
+        }
+
         public Dice(int enterAmount, int enterSides){
-            amount = enterAmount;
-            sides = enterSides;
+            Amount = enterAmount;
+            Sides = enterSides;
+        }
+        public Dice(string input){
+            Amount = int.Parse(input.Substring(0,1));
+            Sides = int.Parse(input.Substring(2,1));
         }
 
         public int getamount(){
@@ -44,7 +73,7 @@ namespace diceroller{
 
     class Program{
         public static void Main(string[] args){
-            Dice tarning = new Dice(3, 6);
+            Dice tarning = new Dice("3D6");
             
             Console.WriteLine(tarning.rollDice());
         }
