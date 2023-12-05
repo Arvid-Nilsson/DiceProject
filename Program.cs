@@ -35,8 +35,17 @@ namespace diceroller{
             Sides = enterSides;
         }
         public Dice(string input){
-            Amount = int.Parse(input.Substring(0,1));
-            Sides = int.Parse(input.Substring(2,1));
+            string inputLower = input.ToLower();
+            int dPosition = inputLower.IndexOf("d");
+            int length = inputLower.Length;
+            
+            if(dPosition == -1 && inputLower.Contains("t") == true){
+                dPosition = inputLower.IndexOf("t");
+                Console.WriteLine("Skriv inte in T, det är D men jag kommer tillåta det den här gången\n");
+            }
+
+            Amount = int.Parse(inputLower.Substring(0,dPosition));
+            Sides = int.Parse(inputLower.Substring(dPosition + 1, length - dPosition - 1)); 
         }
 
         public int getamount(){
@@ -73,7 +82,7 @@ namespace diceroller{
 
     class Program{
         public static void Main(string[] args){
-            Dice tarning = new Dice("3D6");
+            Dice tarning = new Dice("20t6");
             
             Console.WriteLine(tarning.rollDice());
         }
