@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace diceroller{
-    class Dice{
+    class Tarning{
         private int amount;
         private int sides;
 
@@ -9,11 +9,11 @@ namespace diceroller{
             get{return Amount;}
 
             set{
-                if(value >= 2){
+                if(value >= 1){
                     amount = value;
                 }
                 else{
-                    amount = 2;
+                    amount = 1;
                 }
             }
         }
@@ -30,11 +30,11 @@ namespace diceroller{
             }
         }
 
-        public Dice(int enterAmount, int enterSides){
+        public Tarning(int enterAmount, int enterSides){
             Amount = enterAmount;
             Sides = enterSides;
         }
-        public Dice(string input){
+        public Tarning(string input){
             string inputLower = input.ToLower();
             int dPosition = inputLower.IndexOf("d");
             int length = inputLower.Length;
@@ -82,7 +82,7 @@ namespace diceroller{
 
     class Program{
         public static void Main(string[] args){
-            Dice tarning = new Dice("20t6");
+            Tarning tarning = new Tarning("3D6");
             
             Console.WriteLine(tarning.rollDice());
         }
